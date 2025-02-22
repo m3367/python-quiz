@@ -55,7 +55,7 @@ for question in questions:
         for option in question['options']:
             print(option)
 
-        choice = input('What is your chosen answer? ').upper()
+        choice = input('What is your chosen answer? (A, B, C, D) ').upper()
 
         if choice == question['answer']:
             score += 1
